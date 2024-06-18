@@ -2,5 +2,5 @@ streamlit
 google-generativeai
 beautifulsoup4
 python-dotenv
-fpdf
+fpdf2
 PyPDF2
