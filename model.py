@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key="AIzaSyDA6zE16NjMSYefmnIo74aJ8cacoDxJsrE")
+genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 
 class AllModels:
